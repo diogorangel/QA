@@ -1,0 +1,346 @@
+{
+  "id": "917e7e60-bb4a-4cce-8bd8-b2a89ee045bd",
+  "version": "2.0",
+  "name": "testeQA",
+  "url": "https://inoveteste.com.br",
+  "tests": [{
+    "id": "63352343-51ba-49d3-aef5-85634caf3f8b",
+    "name": "CT01ValidarLayout",
+    "commands": [{
+      "id": "bbeb17c5-acfa-48fc-aa68-e906161209eb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bef0d0d-c248-4306-b06f-4e5c488770d0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78af814d-55a6-45e3-8bcd-6482037fbe28",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-5643 font > font",
+      "targets": [
+        ["css=#nav-menu-item-5643 font > font", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-5643']/a/span/span/span[2]/font/font", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span/span/span[2]/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30176b49-0b8f-4eae-b9fe-37b38a43b112",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1 font > font",
+      "targets": [
+        ["css=h1 font > font", "css:finder"],
+        ["xpath=//h1/span/font/font", "xpath:position"]
+      ],
+      "value": "Contact"
+    }, {
+      "id": "6b6b5968-6481-4b65-853f-ef518bb3ac3d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=#wpcf7-f616-p598-o1 .qodef-column:nth-child(1) .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[2]/div/div/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d8e1b21-631b-4279-b13d-db03283e7c8e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=#wpcf7-f616-p598-o1 .qodef-column:nth-child(2) .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[2]/div/div[2]/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96bc7619-abf3-401b-8baf-468f85ef9bb8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=assunto",
+      "targets": [
+        ["name=assunto", "name"],
+        ["css=.assunto > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='assunto']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[3]/span[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbc0fe52-db9a-4967-b6f4-12048dbc3c7d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=mensagem",
+      "targets": [
+        ["name=mensagem", "name"],
+        ["css=div:nth-child(4) > .mensagem > .wpcf7-form-control", "css:finder"],
+        ["xpath=//textarea[@name='mensagem']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[4]/span[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3183eff0-e3f7-4a5a-95f8-aee33b74e5c4",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=div:nth-child(5) .wpcf7-form-control",
+      "targets": [
+        ["css=div:nth-child(5) .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@value='Send Message']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[5]/center/font/font/input", "xpath:idRelative"],
+        ["xpath=//font/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "04cf0335-d640-40a9-9f86-eacc3c67249a",
+    "name": "CT202ValidarCriticaCampos",
+    "commands": [{
+      "id": "77b12a1c-2408-46fa-99a1-1aad136af060",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "854640a6-3114-4223-8cdf-1729de8a6453",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-5643 .item_inner",
+      "targets": [
+        ["css=#nav-menu-item-5643 .item_inner", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-5643']/a/span/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a96f2a7e-3a78-47d2-b855-7bef159a3e32",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,106)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eeebfedf-3940-4855-85a5-0f4c8440a3a8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,764)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a1fd3ed-112b-44e9-b8a1-6cddd8d942dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(5) > center:nth-child(1) .wpcf7-form-control:nth-child(1)",
+      "targets": [
+        ["css=div:nth-child(5) > center:nth-child(1) .wpcf7-form-control:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Send Message']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[5]/center/font/font/font/font/font/font/font/font/input", "xpath:idRelative"],
+        ["xpath=//font/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46810cb5-fe14-463a-8195-e8993a833b1d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,888)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81e25a3b-3269-41be-86f6-997e22514614",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.nome font > font > font > font > font > font",
+      "targets": [
+        ["css=.nome font > font > font > font > font > font", "css:finder"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[2]/div/div/div/span[2]/span/font/font/font/font/font/font", "xpath:idRelative"],
+        ["xpath=//span[2]/span/font/font/font/font/font/font", "xpath:position"]
+      ],
+      "value": "Please fill in the required field."
+    }, {
+      "id": "a9eb91df-05fc-4e9e-9569-b467c561f75e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.email font > font > font > font > font > font",
+      "targets": [
+        ["css=.email font > font > font > font > font > font", "css:finder"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[2]/div/div[2]/div/span[2]/span/font/font/font/font/font/font", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span[2]/span/font/font/font/font/font/font", "xpath:position"]
+      ],
+      "value": "Please fill in the required field."
+    }, {
+      "id": "8af7c191-3956-4050-bd39-19e3c23b8598",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.assunto font > font > font > font > font > font",
+      "targets": [
+        ["css=.assunto font > font > font > font > font > font", "css:finder"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[3]/span[2]/span/font/font/font/font/font/font", "xpath:idRelative"],
+        ["xpath=//div[3]/span[2]/span/font/font/font/font/font/font", "xpath:position"]
+      ],
+      "value": "Please fill in the required field."
+    }, {
+      "id": "5151ee8e-b43f-4693-9f29-e73933b4d80e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.mensagem font > font > font > font > font > font",
+      "targets": [
+        ["css=.mensagem font > font > font > font > font > font", "css:finder"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[4]/span[2]/span/font/font/font/font/font/font", "xpath:idRelative"],
+        ["xpath=//div[4]/span[2]/span/font/font/font/font/font/font", "xpath:position"]
+      ],
+      "value": "Please fill in the required field."
+    }, {
+      "id": "99c9fafc-790d-4a3e-ad58-e450d54b4655",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wpcf7-response-output > font > font:nth-child(1) > font > font > font > font",
+      "targets": [
+        ["css=.wpcf7-response-output > font > font:nth-child(1) > font > font > font > font", "css:finder"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[6]/font/font/font/font/font/font", "xpath:idRelative"],
+        ["xpath=//div[6]/font/font/font/font/font/font", "xpath:position"]
+      ],
+      "value": "Validation errors occurred."
+    }]
+  }, {
+    "id": "5e6fcf5a-fbf4-45e1-8cbb-27f562005123",
+    "name": "CT03EnviarMensagem",
+    "commands": [{
+      "id": "e0f300f2-4fba-4d0a-b27e-1a3a28e2e395",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b8afb64-0e6d-4795-8ebe-e9f7e33956f8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b3faef4-50b3-453d-bf51-1479f7fa6bc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-5643 font:nth-child(1) > font:nth-child(1) > font:nth-child(1) > font:nth-child(1) > font:nth-child(1) > font:nth-child(1)",
+      "targets": [
+        ["css=#nav-menu-item-5643 font:nth-child(1) > font:nth-child(1) > font:nth-child(1) > font:nth-child(1) > font:nth-child(1) > font:nth-child(1)", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-5643']/a/span/span/span[2]/font/font/font/font/font/font", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span/span/span[2]/font/font/font/font/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "304fc67f-9ef7-4e24-9b77-c7a698e1420a",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=#wpcf7-f616-p598-o1 .qodef-column:nth-child(1) .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[2]/div/div/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": "´Jordan Lamburg"
+    }, {
+      "id": "4028bbd2-8e3d-4c6a-8e0a-8a8cbf3c59de",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=#wpcf7-f616-p598-o1 .qodef-column:nth-child(2) .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[2]/div/div[2]/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span[2]/input", "xpath:position"]
+      ],
+      "value": "Bytedojan@pou.com.br"
+    }, {
+      "id": "64c8b5bc-06ca-4ea6-92cd-26b47dc5ab87",
+      "comment": "",
+      "command": "click",
+      "target": "name=assunto",
+      "targets": [
+        ["name=assunto", "name"],
+        ["css=.assunto > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='assunto']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[3]/span[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c5cba80-d780-4eda-b257-650c3b00f26a",
+      "comment": "",
+      "command": "click",
+      "target": "name=mensagem",
+      "targets": [
+        ["name=mensagem", "name"],
+        ["css=.wpcf7-form-control:nth-child(3)", "css:finder"],
+        ["xpath=//textarea[@name='mensagem']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[4]/span[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bb79382-bbd4-4703-8348-f33e71594d74",
+      "comment": "",
+      "command": "type",
+      "target": "name=mensagem",
+      "targets": [
+        ["name=mensagem", "name"],
+        ["css=.wpcf7-form-control:nth-child(3)", "css:finder"],
+        ["xpath=//textarea[@name='mensagem']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[4]/span[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "show"
+    }, {
+      "id": "d7231641-87e7-4707-a4dd-a6d61578f476",
+      "comment": "",
+      "command": "click",
+      "target": "css=.qodef-content-aligment-left .qodef-section-inner-margin",
+      "targets": [
+        ["css=.qodef-content-aligment-left .qodef-section-inner-margin", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce402d1e-fee9-45af-8641-bbdcc704fa2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(5) .wpcf7-form-control",
+      "targets": [
+        ["css=div:nth-child(5) .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@value='Send Message']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[5]/center/font/font/input", "xpath:idRelative"],
+        ["xpath=//font/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "860cc7a6-8994-4334-aefd-c66d1f6ef24d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["63352343-51ba-49d3-aef5-85634caf3f8b", "5e6fcf5a-fbf4-45e1-8cbb-27f562005123", "04cf0335-d640-40a9-9f86-eacc3c67249a"]
+  }],
+  "urls": ["https://inoveteste.com.br/"],
+  "plugins": []
+}
